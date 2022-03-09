@@ -71,7 +71,7 @@ def save():
 
 #Search option 
 def find_():
-    website = website_entry.get().title()
+    website = website_entry.get()
     try:
         with open("data.json") as data_file:
             data = json.load(data_file)
